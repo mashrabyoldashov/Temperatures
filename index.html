@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Temperature converter</title>
+  </head>
+  <body>
+    <div class="container rounded mt-5 pb-5 border border-primary w-50 mx-auto">
+      <h1 class="text-center mt-5 mb-5">Temperatura converteri</h1>
+
+      <form>
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control input-value"
+            placeholder="30°C"
+            aria-label="Dollar amount (with dot and two decimal places)"
+          />
+          <span class="input-group-text">°C</span>
+        </div>
+
+        <div class="alert alert-light text-center fs-4 result" role="alert">
+            ? F
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-checked w-100">
+          Tekshir
+        </button>
+      </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
